@@ -8,8 +8,8 @@ module.exports = {
       },
     },
     backgroundImage: {
-      'top': "url('src/lib/images/topography.webp')",
-      'golf': "linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('src/lib/images/bandonLandscape.webp')",
+      'top': "url('$lib/images/topography.webp')",
+      'golf': "linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('$lib/images/bandonLandscape.webp')",
     },
   },
   plugins: []
