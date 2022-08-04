@@ -4,7 +4,7 @@
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<div class="flex flex-col justify-between font-zilla min-h-screen bg-[url('images/topography.webp')]">
+<div class="backgroundtop flex flex-col justify-between font-zilla min-h-screen bg-top">
     <div>
         <header>
             <NavBar 
@@ -16,7 +16,7 @@
                     ]
                 }
                 logo = {
-                    { src: "images/logoWhite.webp", alt: "Victory Stick Logo" }
+                    { src: "/images/logoWhite.webp", alt: "Victory Stick Logo" }
                 }
             />
         </header>
