@@ -2,7 +2,7 @@
     import Article from "../lib/Article.svelte";
     import PageHeading from "../lib/PageHeading.svelte";
     import Section from "../lib/Section.svelte";
-    import Youtube from "svelte-youtube-embed"
+import YouTube from "../lib/YouTube.svelte";
 </script>
 
 <svelte:head>
@@ -21,10 +21,10 @@
         </p>
     </Section>
     <Section heading="Putting">
-        <Youtube id="j6xtUMWlqm8"/>
+        <YouTube id="j6xtUMWlqm8" />
     </Section>
     <Section heading="Driving">
-        <Youtube id="hzBA0TfH76M"/>
+        <YouTube id="hzBA0TfH76M" />
     </Section>
     <Section heading="Gameplay">
         <p>Just follow the most basic rules of conventional golf.</p>
