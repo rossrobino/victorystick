@@ -20,7 +20,7 @@
     text-white
   "
 >
-  <a href="/" >
+  <a sveltekit:prefetch href="/" >
       <img class="h-8 pl-4" src="{logo.src}" alt="{logo.alt}" >
   </a>
   <input class="hidden" type="checkbox" id="checkbox_toggle" bind:checked/>
