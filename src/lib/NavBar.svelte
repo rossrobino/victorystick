@@ -51,7 +51,7 @@
         " 
         >
         {#each nameLinkList as item}
-          <a href="{item.link}">
+          <a sveltekit:prefetch href="{item.link}">
             <span class="sm:pr-8 py-1 list-item list-none hover:text-green-200 uppercase">
               {item.name}
             </span>

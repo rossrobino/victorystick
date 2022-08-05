@@ -34,7 +34,7 @@
             No golf course around? Play how you like. With Victory Stick you can trot 
             through the back nine in under 30 minutes before or after work, spice up a 
             walk with family through the park, or play at the beach. Be sure to tell us
-            your favorite way to play in the <a href="./contact.html" class="bluelink">contact</a> section of our page!
+            your favorite way to play in the <a sveltekit:prefetch href="./contact.html" class="bluelink">contact</a> section of our page!
         </p>
     </Section>
 </Article>
