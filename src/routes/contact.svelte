@@ -14,18 +14,18 @@
 <Article>
     <Section heading="Barry Robino - Creator" class="pb-2 sm:pb-4">
         <p>Contact for more information or free personal instruction.</p>
-        <a href = "mailto: barry@victorystick.com">barry@victorystick.com</a>
+        <a href = "mailto: barry@victorystick.com" class="bluelink">barry@victorystick.com</a>
         <p>Medford, OR</p>
     </Section>
     <Section>
         <p>
-            Licensed manufacturer of Victory Stick: <a href="https://walkingtallso.org/">Walking Tall</a>
+            Licensed manufacturer of Victory Stick: <a href="https://walkingtallso.org/" class="bluelink">Walking Tall</a>
         </p>
         <p>
-            Excellence in golf instruction: <a href="https://westcoastga.com/">West Coast Golf Academy</a>
+            Excellence in golf instruction: <a href="https://westcoastga.com/" class="bluelink">West Coast Golf Academy</a>
         </p>
         <p>
-            Play and buy Victory Stick at: <a href="https://golfbearcreek.com/">Bear Creek Golf Course</a>:
+            Play and buy Victory Stick at: <a href="https://golfbearcreek.com/" class="bluelink">Bear Creek Golf Course</a>
         </p>
         <br />
         <iframe 

@@ -8,6 +8,7 @@
     bg-opacity-50
     text-white
     font-bold
+    smallcaps
     ">
     <slot />
 </h2>

@@ -19,13 +19,8 @@
     bg-no-repeat
     h-[calc(100vh-8rem)]
     bg-golf
+    smallcaps
     ">
     Victory Stick
     <div class="uppercase text-xl sm:text-2xl pt-4">A Gateway to Golf</div>
 </h2>
-
-<style>
-    h2 {
-        font-variant: small-caps;
-    }
-</style>
