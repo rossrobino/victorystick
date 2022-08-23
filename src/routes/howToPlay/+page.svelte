@@ -1,8 +1,8 @@
 <script>
-    import Article from "../lib/Article.svelte";
-    import PageHeading from "../lib/PageHeading.svelte";
-    import Section from "../lib/Section.svelte";
-import YouTube from "../lib/YouTube.svelte";
+    import Article from "../../lib/Article.svelte";
+    import PageHeading from "../../lib/PageHeading.svelte";
+    import Section from "../../lib/Section.svelte";
+import YouTube from "../../lib/YouTube.svelte";
 </script>
 
 <svelte:head>

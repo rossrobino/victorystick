@@ -1,7 +1,7 @@
 <script>
-    import Article from "../lib/Article.svelte";
-    import PageHeading from "../lib/PageHeading.svelte";
-    import Section from "../lib/Section.svelte";
+    import Article from "../../lib/Article.svelte";
+    import PageHeading from "../../lib/PageHeading.svelte";
+    import Section from "../../lib/Section.svelte";
 </script>
 
 <svelte:head>
