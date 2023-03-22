@@ -1,26 +1,25 @@
-<script>
-    import PageHeading from "../lib/PageHeading.svelte";
-</script>
 <svelte:head>
-    <title>Victory Stick</title>
-    <meta name="description" content="A gateway to golf.">
+	<title>Victory Stick</title>
+	<meta name="description" content="A gateway to golf." />
 </svelte:head>
 
-<h2 class="
-    text-center 
-    pt-48
-    pb-28 
-    px-8
-    text-7xl
-    sm:text-8xl
-    text-white
-    font-bold
-    bg-cover
-    bg-no-repeat
+<h2
+	class="
+    smallcaps
     h-[calc(100vh-8rem)]
     bg-golf
-    smallcaps
-    ">
-    Victory Stick
-    <div class="uppercase text-xl sm:text-2xl pt-4">A Gateway to Golf</div>
+    bg-cover
+    bg-no-repeat
+    px-8
+    pt-48
+    pb-28
+    text-center
+    text-7xl
+    font-bold
+    text-white
+    sm:text-8xl
+    "
+>
+	Victory Stick
+	<div class="pt-4 text-xl uppercase sm:text-2xl">A Gateway to Golf</div>
 </h2>
