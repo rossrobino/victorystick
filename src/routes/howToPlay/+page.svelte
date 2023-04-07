@@ -23,14 +23,14 @@
 		<YouTube
 			uid="j6xtUMWlqm8"
 			title="Putting"
-			class="aspect-video w-full border-4 border-zinc-500"
+			class="aspect-video w-full rounded border-4 border-zinc-500"
 		/>
 	</Section>
 	<Section heading="Driving">
 		<YouTube
 			uid="hzBA0TfH76M"
 			title="Driving"
-			class="aspect-video w-full border-4 border-zinc-500"
+			class="aspect-video w-full rounded border-4 border-zinc-500"
 		/>
 	</Section>
 	<Section heading="Gameplay">
