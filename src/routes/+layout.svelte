@@ -1,7 +1,12 @@
 <script>
 	import "../app.postcss";
+	import { dev } from "$app/environment";
+	import { inject } from "@vercel/analytics";
+
 	import NavBar from "$lib/components/NavBar.svelte";
 	import Footer from "$lib/components/Footer.svelte";
+
+	inject({ mode: dev ? "development" : "production" });
 </script>
 
 <div class="backgroundtop flex min-h-screen flex-col justify-between bg-top font-zilla">
