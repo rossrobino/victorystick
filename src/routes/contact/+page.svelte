@@ -14,7 +14,7 @@
 <Article>
 	<Section heading="Barry Robino - Creator" class="pb-2 sm:pb-4">
 		<p>Contact for more information or free personal instruction.</p>
-		<a href="mailto: barry@victorystick.com" class="bluelink">barry@victorystick.com</a>
+		<a href="mailto:jbarryrobino@gmail.com" class="bluelink">Email</a>
 		<p>Medford, OR</p>
 	</Section>
 	<Section>
