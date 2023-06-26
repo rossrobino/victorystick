@@ -11,8 +11,8 @@
     bg-cover
     bg-no-repeat
     px-8
-    pt-48
     pb-28
+    pt-48
     text-center
     text-7xl
     font-bold

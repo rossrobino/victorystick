@@ -10,7 +10,7 @@
 <svelte:window bind:innerWidth />
 
 <nav class="pageNav flex h-16 items-center justify-between bg-black text-white">
-	<a sveltekit:prefetch href="/">
+	<a href="/">
 		<img class="h-8 pl-4" src={logo.src} alt={logo.alt} />
 	</a>
 	<input class="hidden" type="checkbox" id="checkbox_toggle" bind:checked />
@@ -37,10 +37,10 @@
 	{#if checked || innerWidth > 640}
 		<div
 			transition:slide={innerWidth > 640 ? { duration: 0 } : {}}
-			class="absolute top-12 left-0 right-0 bg-black py-4 text-center sm:static sm:flex"
+			class="absolute left-0 right-0 top-12 bg-black py-4 text-center sm:static sm:flex"
 		>
 			{#each nameLinkList as item}
-				<a sveltekit:prefetch href={item.link}>
+				<a href={item.link}>
 					<span class="list-item list-none py-1 uppercase hover:text-green-200 sm:pr-8">
 						{item.name}
 					</span>
