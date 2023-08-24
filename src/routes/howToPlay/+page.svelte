@@ -2,7 +2,7 @@
 	import Article from "../../lib/components/Article.svelte";
 	import PageHeading from "../../lib/components/PageHeading.svelte";
 	import Section from "../../lib/components/Section.svelte";
-	import { YouTube } from "@rossrobino/components";
+	import { YouTube } from "drab";
 </script>
 
 <svelte:head>
