@@ -34,6 +34,7 @@
 			/>
 		</svg>
 	</label>
+
 	{#if checked || innerWidth > 640}
 		<div
 			transition:slide={innerWidth > 640 ? { duration: 0 } : {}}
